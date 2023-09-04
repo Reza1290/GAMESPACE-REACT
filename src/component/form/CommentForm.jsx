@@ -17,7 +17,7 @@ const CommentForm = ({ isiId }) => {
         // Handle cases where the user is not authenticated
         return;
       }
-
+      
       // Add a new comment document to the comments collection
       await addDoc(collection( firestore, "comments"), {
         forum_id: isiId,

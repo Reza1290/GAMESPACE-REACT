@@ -14,6 +14,7 @@ import SignOut from './pages/auth/SignOut';
 import PresistAuth from './middleware/PresistAuth';
 import CreateForum from './component/form/CreateForum';
 import EditForum from './component/form/EditForum';
+import HubPage from './pages/HubPage';
 // import { authMin } from './firemin';
 
 function App() {
@@ -31,7 +32,7 @@ function App() {
                 <Route path='spacerum' element={<ForumPage/>} />
                 <Route path='spacerum/:id' element={<ViewPage/>} />
                 <Route path='gamesight' element={<InsightPage/>} />
-                {/* <Route path='gamehub' element={<HubPage/>} /> */}
+                <Route path='gamehub' element={<HubPage/>} />
                 {/* User Login Only */} 
                 
                 {/* <Route element={<PresistAuth/>}> Nyalakan saja Jika Perlu! -Reza*/}

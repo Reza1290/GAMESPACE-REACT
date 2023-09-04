@@ -63,7 +63,7 @@ const ViewContent = ({ isi }) => {
   };
 
   useEffect(() => {
-    if (isLogin?.user.uid === isi?.data?.user_id) {
+    if (isLogin && isLogin?.user?.uid === isi?.data?.user_id) {
       setEditPermis(true);
     }
   }, [isLogin, isi?.data?.user_id, isi?.id]);
@@ -94,7 +94,7 @@ const ViewContent = ({ isi }) => {
             <div className="flex gap-4 items-start">
               <div className="border w-[64px] h-[64px] rounded-xl">
                 <img
-                  src="./logo512.png"
+                  src="../logo512.png"
                   alt=""
                   className="w-[64px] h-[64px] w-cover"
                 />

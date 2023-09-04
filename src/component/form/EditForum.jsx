@@ -62,7 +62,7 @@ const EditForum = () => {
             desc: editedContent,
           };
           
-          await setDoc(edit,data, {merge : true})
+          await setDoc(edit, data, {merge : true})
           // Exit edit mode after successfully saving
           setIsEditMode(false);
         } else {

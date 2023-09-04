@@ -28,7 +28,9 @@ export const AuthProvider = ({children}) => {
       
     }, [])
 
-    if(isLoading){ return (<></>)}
+    if(isLoading){ return (<>
+        
+    </>)}
     
 
     // console.log(isLogin);
