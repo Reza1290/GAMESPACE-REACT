@@ -1,0 +1,36 @@
+[
+    "Technical Skills" : {
+       "Languages": [
+          "C",
+          "Cpp",
+          "Python",
+          "JavaScript",
+          "HtmlCss",
+          "Php"
+       ],
+       "Frameworks":[
+          "Laravel",
+          "Vuejs"
+       ],
+       "Databases":[
+          "MySql"
+       ],
+       "relevantSkills":[
+          "Scrum",
+          "Ui Design",
+          "ARM"
+       ]
+    },
+    "Education" : [
+       {
+          "Institution":"Politeknik Elektronika Negeri Surabaya",
+          "fieldOfStudy":"Diploma",
+          "other":"last GPA 3.92"
+       },
+       {
+          "Institution":"SMA Negeri 8 Surabaya",
+          "fieldOfStudy":"SCIENCE (MIPA)",
+          "other":"GPA 85.0"
+       }
+    ],
+ ]
